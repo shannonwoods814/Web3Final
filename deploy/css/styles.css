@@ -1,18 +1,13 @@
 /* =============
     Mixins
 ============= */
-/* ---------------- Font Sizing ---------------- */
-html {
-  font-size: 100%;
-}
-
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
 ============= */
 :root {
   --black: #000000;
-  --white: #ffffff;
+  --white: #fafafa;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -330,6 +325,23 @@ template {
 /* =============
     Typography
 ============= */
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 10px 0 20px;
+  font-size: 40px;
+  color: rgba(69, 41, 79, 0.7);
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 10px 0 20px;
+  font-size: 35px;
+}
+
 /* =============
     Buttons
 ============= */
